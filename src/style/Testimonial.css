@@ -1,0 +1,15 @@
+.testimonial span{
+    font-size: 28px;
+    margin: 0 20px;
+}
+
+.testimonial .btntest{
+    color: #4CAF4F !important;
+}
+
+@media screen and (max-width: '600px'){
+   .testimonial span{
+        margin: 0 3px;
+        
+    }
+}

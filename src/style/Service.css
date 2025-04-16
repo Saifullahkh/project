@@ -1,0 +1,11 @@
+.service{
+    position: relative;
+    top: 10px;
+}
+
+.service1{
+    position: absolute;
+    top: 150px;
+    margin: 0 50px; 
+
+}

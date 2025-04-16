@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    background-color: #F5F7FA !important;
+    height: 520px !important;
+   
+}
+
+.client-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.client-item li{
+    margin: 0 40px 0 40px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .client-item{
+        row-gap: 15px !important;
+    }
+    .client-item li{
+        margin: 0 20px 0 20px;
+       
+    }
+}
